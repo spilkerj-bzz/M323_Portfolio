@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* Three columns with a fixed width */
+    gap: 50px; /* Space between buttons */
+    padding: 20px;
+    justify-content: center; /* Centers the grid on the page */
+}
+
+a {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px; /* Original padding for larger buttons */
+    width: 150px; /* Fixed width as in the first iteration */
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
+
+
+.content-wrapper {
+    margin: 20px !important;
+    padding-left: 100px !important;
+}
+
+
